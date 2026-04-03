@@ -37,4 +37,5 @@ app.get("/dashboard", isAuth, appController.dashboard_get);
 app.post("/logout", isAuth, appController.logout_post);
 app.listen(5000, () => {
   console.log("Server is running on port 5000");
-});
+}); 
+//The end 
